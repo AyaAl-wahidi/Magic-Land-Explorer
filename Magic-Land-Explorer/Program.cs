@@ -38,7 +38,7 @@ namespace Magic_Land_Explorer
             {
                 Console.WriteLine("Failed to read categories. Exiting...");
                 return;
-            }
+            } 
 
             FilterDestinations filterDestinations = new FilterDestinations();
             List<MenuItem> menuItemList = new List<MenuItem>()
